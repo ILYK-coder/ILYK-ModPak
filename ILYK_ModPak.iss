@@ -23,10 +23,12 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 
 [Files]
 Source: "SourceFiles\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "XVM\*"; DestDir: "{app}\mods\xvm"; Flags: ignoreversion recursesubdirs createallsubdirs
 
 [Icons]
 Name: "{group}\ILYK ModPak"; Filename: "{app}"
 Name: "{group}\Видалити ILYK ModPak"; Filename: "{uninstallexe}"
+Name: "{group}\XVM Config"; Filename: "{app}\mods\xvm"
 
 [Run]
 Filename: "{app}"; Description: "Запустити каталог модпака"; Flags: postinstall nowait
@@ -78,5 +80,6 @@ begin
   if CurPageID = wpReady then
   begin
     WizardForm.ReadyMemo.Lines.Add('Каталог встановлення: ' + GetDestDir(''));
+    WizardForm.ReadyMemo.Lines.Add('XVM мод буде встановлено в: ' + GetDestDir('') + '\mods\xvm');
   end;
 end;
