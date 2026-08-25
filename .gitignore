@@ -1,0 +1,21 @@
+# Inno Setup
+*.exe
+Output/
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Build artifacts
+*.bak
+*.swp
+*~
+
+# Mod files (optional - uncomment if needed)
+# SourceFiles/
