@@ -15,8 +15,6 @@ WizardStyle=modern
 ShowLanguageDialog=no
 LanguageDetectionMethod=uilanguage
 LicenseFile=
-WizardImageFile=compiler:WizardModernImage.bmp
-WizardSmallImageFile=compiler:WizardModernSmallImage.bmp
 
 [Languages]
 Name: "ukrainian"; MessagesFile: "compiler:Languages\Ukrainian.isl"
