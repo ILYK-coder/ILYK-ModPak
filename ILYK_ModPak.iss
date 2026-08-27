@@ -14,7 +14,6 @@ SetupIconFile=
 WizardStyle=modern
 ShowLanguageDialog=no
 LanguageDetectionMethod=uilanguage
-DefaultLanguageName=ukrainian
 LicenseFile=
 WizardImageFile=compiler:WizardModernImage.bmp
 WizardSmallImageFile=compiler:WizardModernSmallImage.bmp
